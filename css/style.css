@@ -5,12 +5,13 @@
 }
 
 body {
-    background-color: rgb(245, 250, 254);
-}
-header {
-    background-color: white;
+    background-color: rgb(237, 244, 249);
 }
 
+main section {
+    width: 80%;
+    margin: 2rem auto;
+}
 header h1 {
 display: inline-block;
 vertical-align:top;
@@ -22,4 +23,35 @@ img.main-logo {
     padding-left: 2rem;
     padding-top: 1rem;
 
+}
+
+.bg-color {
+    background-color: white;
+}
+
+.button-style {
+
+    height: 1.5rem;
+    text-align: center;
+    border-radius: .2rem;
+    font-size: 0.7rem;
+}
+
+#button-info {
+    padding: 0.6rem 2rem;
+
+}
+
+#task-add {
+    width: 4rem;
+    background-color: rgb(61, 143, 230);
+    border: none;
+    color: white;
+}
+
+#section-add {
+    width: 5rem;
+    background-color: white;
+    border: 0.1rem solid lightgray;
+    color: lightgrey;
 }
