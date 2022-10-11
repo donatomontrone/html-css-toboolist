@@ -6,6 +6,7 @@
 
 body {
     background-color: rgb(237, 244, 249);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main section {
@@ -16,13 +17,20 @@ header h1 {
 display: inline-block;
 vertical-align:top;
 line-height: 80px;
-
 }
 
-ul {
-    line-height: 2rem;
+ul{
+    list-style-type: none;
+    font-size: .8rem;
+}
+ul li {
+    margin: .4rem 0 1rem 0;
+    font-size: .9rem;
 }
 
+h2{
+    padding-top: 1rem;
+}
 img.main-logo {
     padding-left: 2rem;
     padding-top: 1rem;
@@ -46,12 +54,30 @@ span.check {
     border-radius: 100%;
     font-size: .7rem;
     display: inline-block;
-    width: .8rem;
-    height: .8rem;
-    vertical-align: middle;
-
+    width: 1rem;
+    height: 1rem;
+    padding-left: .15rem;
 }
 
+.check {
+    color: rgb(11, 125, 60);
+}
+
+.cross {
+    color: red;
+}
+
+input.button-list {
+    border: none;
+    border-radius: .5rem;
+    font-size: 0.6rem;
+    padding: .3rem;
+    color: white;
+}
+
+input.editorial-button {
+    background-color: rgb(61, 143, 230);
+}
 #button-info {
     padding: 0.6rem 2rem;
 }
@@ -71,7 +97,26 @@ span.check {
 }
 
 #main-list {
-    padding: 2rem;
+    padding: 0 2rem 2rem;
     margin-top: .1rem;
+}
 
+#goals-button {
+    background-color: blueviolet;
+}
+
+#recl-button {
+    background-color: #00A86B ;
+}
+
+#mobile-button {
+    background-color: orange;
+}
+
+#website-button {
+    background-color: palevioletred;
+}
+
+#sales-button {
+    background-color: olivedrab;
 }
